@@ -1,3 +1,11 @@
-/**
- * Created by ipyaskovskyy on 4/10/17.
- */
+export class Item {
+  constructor(
+    public title: string,
+    public views: number,
+    public source: string,
+    public url: string,
+    public videoId: string
+  ) {
+
+  }
+}
